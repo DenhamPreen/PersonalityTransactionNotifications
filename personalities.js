@@ -58,6 +58,8 @@ function secretAvailableFundsNotificationFromAnAussie(accountBalanceAmountInCent
   }
 }
 
+//This ones a little vulgar
+
 function secretAvailableFundsNotificationFromASassyIndependentWomen(accountBalanceAmountInCents){
   var accountBalanceAmount = accountBalanceAmountInCents / 100;
   var formattedAccountBalance = zarString(accountBalanceAmountInCents);
@@ -65,7 +67,7 @@ function secretAvailableFundsNotificationFromASassyIndependentWomen(accountBalan
     return 'Nigga you broke';
   }
   else if (accountBalanceAmount < 1500){
-    return 'Yall better start sucking dick for money;
+    return 'Yall better start sucking dick for money';
   }
   else if(accountBalanceAmount < 4000){
     return 'Get the food coupons ready';
